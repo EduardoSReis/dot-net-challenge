@@ -13,7 +13,7 @@ namespace server.Controllers
         TemperatureRepository temperatureRepository = new TemperatureRepository();
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(string id)
+        public async Task<IActionResult> GetTemperature(string id)
         {
             var result = temperatureRepository.GetTemperature(id);
             return result;            
