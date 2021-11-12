@@ -7,7 +7,7 @@ using System.Linq;
 using System.Collections.Generic;
 
 namespace api.test
-{
+{   [TestFixture]
     public class Tests    
     {
         private TemperatureController controller;

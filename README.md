@@ -8,3 +8,9 @@ This project uses
 
 ## Available scripts
 - `dotnet run` - Start the server (Port 8081)
+
+## On Error
+- If an error occurs during the http request user is going to be notified by an http response.
+
+## NUnit
+- This application uses NUnit 2.6.4 for testing coverage. NUnit is a unit test framework for .NET languages.
